@@ -20,6 +20,7 @@ Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento de
 
 |Total: | ~400€ |
 | ----- | ----- |
+
 Una alternativa a la bahía puede ser conectar los distintos discos directamente al pc con adaptadores SATA - USB. He optado por la opción de la bahía porque esta cuesta solo un poco más que 2 adaptadores y es más fiable tener los discos ahi dentro que sueltos por ahí.
 # 💾| Instalación
 Descargamos la .iso de TrueNAS desde su [página oficial](https://www.truenas.com/download/) y creamos una unidad arrancable con [Rufus](https://rufus.ie/es/) (si estás Windows) o [Startup Disk Creator](https://computernewage.com/2018/08/18/crear-usb-booteable-gnu-linux/#utilidad-usb-arrancable) (si estás en Linux).
@@ -85,9 +86,10 @@ Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque au
 <img src="/imgs/panel/Panel15.png" alt="Imagen panel" width=auto max-height=280px>
 
 Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra de búsqueda del explorador de archivos lo siguiente:
-### Desde Windows
+🪟| **Desde Windows**
 `\\ip_del_servidor`
-### Desde Linux
+🐧| **Desde Linux**
 `smb://ip_del_servidor`
-<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=280px>
-<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=280px>
+
+<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=180px>
+<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=180px>
