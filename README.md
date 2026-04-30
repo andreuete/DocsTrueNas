@@ -83,3 +83,11 @@ Ahora, vamos a la pestaña **Shares** y configuramos el servicio SMB
 Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque automáticamente. Le decimos que sí.
 
 <img src="/imgs/panel/Panel15.png" alt="Imagen panel" width=auto max-height=280px>
+
+Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra de búsqueda del explorador de archivos lo siguiente:
+### Desde Windows
+`\\ip_del_servidor`
+### Desde Linux
+`smb://ip_del_servidor`
+<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=280px>
+<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=280px>
