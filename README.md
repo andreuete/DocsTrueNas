@@ -15,7 +15,7 @@ Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento de
 | Img. | Producto | Precio | Cant. |
 | -----| -------------- | ----- | ---|
 | <img src="/imgs/productos/minipc.jpg" alt="Imagen del producto" width=auto height=80px> | [Mini PC LenovoThinkCentre M910q](https://www.amazon.es/Lenovo-Computer-ThinkCentre-Procesador-reacondicionado/dp/B0F99QY3GL/ref=sr_1_5?sr=8-5) | 150€ | 1x | 
-| <img src="/imgs/productos/disco.webp" alt="Imagen del producto" width=auto height=80px> | [Disco duro HDD](https://www.pccomponentes.com/seagate-barracuda-35-2tb-sata-3) | 117€/Ud. | 2x |
+| <img src="/imgs/productos/disco.webp" alt="Imagen del producto" width=auto height=80px> | [Disco duro HDD 2TB](https://www.pccomponentes.com/seagate-barracuda-35-2tb-sata-3) | 117€/Ud. | 2x |
 | <img src="/imgs/productos/bahia.webp" alt="Imagen del producto" width=auto height=80px> | [Bahía SATA - USB](https://www.pccomponentes.com/tooq-tqds-805g-adaptador-hdd-ssd-2535-sata) | 25€ | 1x |
 
 |Total: | ~400€ |
@@ -80,6 +80,6 @@ Ahora, vamos a la pestaña **Shares** y configuramos el servicio SMB
 <img src="/imgs/panel/Panel9.png" alt="Imagen panel" width=auto max-height=280px>
 <img src="/imgs/panel/Panel13.png" alt="Imagen panel" width=auto max-height=280px>
 
-Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque automáticamente.
+Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque automáticamente. Le decimos que sí.
 
 <img src="/imgs/panel/Panel15.png" alt="Imagen panel" width=auto max-height=280px>
