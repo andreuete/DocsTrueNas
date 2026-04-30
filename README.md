@@ -6,9 +6,9 @@ Documentación e instrucciones del proyecto de instalación de un sistema TrueNA
 En esta práctica vamos a implementar un servidor NAS para usarlo como un "Drive" en casa, aunque a este servidor se le pueden dar una infinad de usos.
 Según la [web oficial](https://www.truenas.com/docs/scale/25.04/gettingstarted/scalehardwareguide/), los requisitos del sistema son los siguientes:
 
-![Tabla de requisitos del sistema](/imgs/productos/"Captura desde 2026-04-30 11-58-59.png")
+![Tabla de requisitos del sistema]("/imgs/productos/"Captura desde 2026-04-30 11-58-59.png")
 
-Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento del propio sistema, si son altamente recomendados para que este tenga un rendimiento óptimo.
+Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento del propio sistema, si son altamente recomendados para que este tenga un rendimiento óptimo. Sobre todo a la hora de mover un gran volumen de archivos.
 
 # Presupuesto
 | Img. | Producto | Precio | Cant. |
@@ -17,5 +17,6 @@ Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento de
 | <img src="/imgs/productos/wdblue.webp" alt="Imagen del producto" width=auto height=80px> | [Disco duro HDD](https://www.pccomponentes.com/disco-duro-wd-blue-35-500gb-sata3) | ~~50€~~ 37€/Ud. | 2x |
 | <img src="/imgs/productos/adaptador.webp" alt="Imagen del producto" width=auto height=80px> | [Adaptador SATA - USB](https://www.pccomponentes.com/adaptador-savio-ak-69-sata-a-usb-c-5gbps-compatible-25-y-hdd-hasta-10tb) | 10€/Ud. | 2x |
 
-|Total: | | | ~245€ |
-| -----| -------------- | ----- | ---|
+|Total: | ~245€ |
+| ----- | ----- |
+
