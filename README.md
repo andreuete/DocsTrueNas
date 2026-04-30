@@ -1,6 +1,7 @@
 # 🏠| Proyecto TrueNAS en casa
 Documentación e instrucciones del proyecto de instalación de un sistema TrueNAS
-`NOTA: parece hecho con ia por los emojis, pero todo esto es 100% inteligencia artesanal. Lo juro 🙏😭`
+
+`NOTA: parece hecho con chatgpt por los emojis, pero todo esto es 100% inteligencia artesanal. Lo juro 🙏😭`
 
 # 👋| Introducción
 En esta práctica vamos a implementar un servidor NAS para usarlo como un "Drive" en casa, aunque a este servidor se le pueden dar una infinad de usos.
@@ -14,7 +15,7 @@ Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento de
 | Img. | Producto | Precio | Cant. |
 | -----| -------------- | ----- | ---|
 | <img src="/imgs/productos/minipc.jpg" alt="Imagen del producto" width=auto height=80px> | [Mini PC LenovoThinkCentre M910q](https://www.amazon.es/Lenovo-Computer-ThinkCentre-Procesador-reacondicionado/dp/B0F99QY3GL/ref=sr_1_5?sr=8-5) | 150€ | 1x | 
-| <img src="/imgs/productos/wdblue.webp" alt="Imagen del producto" width=auto height=80px> | [Disco duro HDD](https://www.pccomponentes.com/disco-duro-wd-blue-35-500gb-sata3) | ~~50€~~ 37€/Ud. | 2x |
+| <img src="/imgs/productos/wdblue.webp" alt="Imagen del producto" width=auto height=80px> | [Disco duro HDD](https://www.pccomponentes.com/disco-duro-wd-blue-35-500gb-sata3) | ~~50€~~  37€/Ud. | 2x |
 | <img src="/imgs/productos/adaptador.webp" alt="Imagen del producto" width=auto height=80px> | [Adaptador SATA - USB](https://www.pccomponentes.com/adaptador-savio-ak-69-sata-a-usb-c-5gbps-compatible-25-y-hdd-hasta-10tb) | 10€/Ud. | 2x |
 
 |Total: | ~245€ |
@@ -40,6 +41,9 @@ Por último nos preguntará si queremos activar EFI boot. Selecciona que sí.
 Cuando se haya terminado de instalar, el programa volverá a mostrar el mismo menú que al inicio. Esta vez selecciona **Reboot system** y desconecta la unidad arrancable.
 
 <img src="/imgs/instalacion/Instalacion14.png" alt="Imagen instalación" width=auto max-height=280px>
-<img src="/imgs/instalacion/Instalacion11.png" alt="Imagen instalación" width=auto max-height=280px>
+<img src="/imgs/instalacion/Instalacion15.png" alt="Imagen instalación" width=auto max-height=280px>
 
+# 🖥️| Panel
+Al arrancar el servidor, veremos un menú con varias opciones y arriba de este la dirección a la que debemos conectarnos para acceder al panel. Si este diálogo no aparece, puedes cambiar la interfaz y configuración de red con las opciones 1 y 2 respectivamente.
 
+<img src="/imgs/panel/Panel0.png" alt="Imagen instalación" width=auto max-height=280px>
