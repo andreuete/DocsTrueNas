@@ -46,11 +46,40 @@ Cuando se haya terminado de instalar, el programa volverá a mostrar el mismo me
 # 🖥️| Panel
 Al arrancar el servidor, veremos un menú con varias opciones y arriba de este la dirección a la que debemos conectarnos para acceder al panel. Si este diálogo no aparece, puedes cambiar la interfaz y configuración de red con las opciones 1 y 2 respectivamente.
 
-<img src="/imgs/panel/Panel0.png" alt="Imagen instalación" width=auto max-height=280px>
+<img src="/imgs/panel/Panel0.png" alt="Imagen panel" width=auto max-height=280px>
 
 Aquí iniciamos sesión con el usuario *truenas_admin* que configuramos antes.
 
-<img src="/imgs/panel/Panel0.png" alt="Imagen instalación" width=auto max-height=280px>
+<img src="/imgs/panel/Panel1.png" alt="Imagen panel" width=auto max-height=280px>
 
+En la página principal podremos ver información general del servidor. El consumo del CPU y RAM, el uso de espacio en el disco, los componentes del servidor, etc.
 
+<img src="/imgs/panel/Panel2.png" alt="Imagen panel" width=auto max-height=280px>
 
+# Almacenamiento en Red
+Para crear la unidad de almacenamiento en red nos dirigimos a la pestaña **Storage** y creamos una pool con los 2 discos duros.
+
+<img src="/imgs/panel/Panel3.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/Panel4.png" alt="Imagen panel" width=auto max-height=280px>
+
+Esta pool será en espejo, es decir, que ambos discos tendrán la misma información exacta para poder conservar los archivos en caso de avería.
+
+<img src="/imgs/panel/Panel5.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/Panel6.png" alt="Imagen panel" width=auto max-height=280px>
+
+Ahora, para poder acceder a esta unidad desde otro dispositivo hay que compartirla en red. Pero antes vamos a crear a un usuario. Esto se hace en **Credentials** > **Users**. Asegúrate de que el usuario tenga permisos para acceder al SMB
+
+<img src="/imgs/panel/Panel10.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/Panel11.png" alt="Imagen panel" width=auto max-height=280px>
+
+La unidad de almacenamiento "Fotos" no se puede compartir como tal, hace falta crear una directorio. Esto lo haremos más facil desde la terminal del servidor.
+
+<img src="/imgs/panel/Panel14.png" alt="Imagen panel" width=auto max-height=280px>
+
+Ahora, vamos a la pestaña **Shares** y configuramos el servicio SMB
+<img src="/imgs/panel/Panel9.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/Panel13.png" alt="Imagen panel" width=auto max-height=280px>
+
+Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque automáticamente.
+
+<img src="/imgs/panel/Panel15.png" alt="Imagen panel" width=auto max-height=280px>
