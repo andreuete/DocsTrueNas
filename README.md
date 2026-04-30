@@ -91,5 +91,5 @@ Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra d
 🐧| **Desde Linux**
 `smb://ip_del_servidor`
 
-<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=180px>
-<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=180px>
+<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=130px>
+<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=130px>
