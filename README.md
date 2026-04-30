@@ -74,6 +74,7 @@ Ahora, para poder acceder a esta unidad desde otro dispositivo hay que compartir
 <img src="/imgs/panel/Panel11.png" alt="Imagen panel" width=auto max-height=280px>
 
 La unidad de almacenamiento "Fotos" no se puede compartir como tal, hace falta crear una directorio. Ve a la pestaña **Datasets** y crea uno.
+**IMPORTANTE:** En "Dataset preset" selecciona SMB y activa la opción "Create SMB share."
 
 <img src="/imgs/panel/permisos1.png" alt="Imagen panel" width=auto max-height=280px>
 <img src="/imgs/panel/permisos2.png" alt="Imagen panel" width=auto max-height=280px>
@@ -89,6 +90,6 @@ Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra d
 🐧| **Desde Linux**
 `smb://ip_del_servidor`
 
-<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=130px>
-<img src="/imgs/panel/carpeta2.1.png" alt="Imagen carpeta" width=auto max-height=130px>
-<img src="/imgs/panel/carpeta3.png" alt="Imagen carpeta" width=auto max-height=130px>
+<img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=100px>
+<img src="/imgs/panel/carpeta2.1.png" alt="Imagen carpeta" width=auto max-height=100px>
+<img src="/imgs/panel/carpeta3.png" alt="Imagen carpeta" width=auto max-height=100px>
