@@ -73,17 +73,15 @@ Ahora, para poder acceder a esta unidad desde otro dispositivo hay que compartir
 <img src="/imgs/panel/Panel10.png" alt="Imagen panel" width=auto max-height=280px>
 <img src="/imgs/panel/Panel11.png" alt="Imagen panel" width=auto max-height=280px>
 
-La unidad de almacenamiento "Fotos" no se puede compartir como tal, hace falta crear una directorio. Esto lo haremos más facil desde la terminal del servidor.
+La unidad de almacenamiento "Fotos" no se puede compartir como tal, hace falta crear una directorio. Ve a la pestaña **Datasets** y crea uno.
 
-<img src="/imgs/panel/Panel14.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/permisos1.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/permisos2.png" alt="Imagen panel" width=auto max-height=280px>
 
-Ahora, vamos a la pestaña **Shares** y configuramos el servicio SMB
-<img src="/imgs/panel/Panel9.png" alt="Imagen panel" width=auto max-height=280px>
-<img src="/imgs/panel/Panel13.png" alt="Imagen panel" width=auto max-height=280px>
+Luego, selecciona el dataset, ve a **permissions** y **edit**. Aquí le damos al usuario permisos de modificar.
 
-Luego, nos pregunta si queremos arrancar el servicio SMB y hacer que arranque automáticamente. Le decimos que sí.
-
-<img src="/imgs/panel/Panel15.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/permisos3.png" alt="Imagen panel" width=auto max-height=280px>
+<img src="/imgs/panel/permisos4.png" alt="Imagen panel" width=auto max-height=280px>
 
 Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra de búsqueda del explorador de archivos lo siguiente:
 🪟| **Desde Windows**
@@ -92,4 +90,5 @@ Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra d
 `smb://ip_del_servidor`
 
 <img src="/imgs/panel/carpeta1.png" alt="Imagen carpeta" width=auto max-height=130px>
-<img src="/imgs/panel/carpeta2.png" alt="Imagen carpeta" width=auto max-height=130px>
+<img src="/imgs/panel/carpeta2.1.png" alt="Imagen carpeta" width=auto max-height=130px>
+<img src="/imgs/panel/carpeta3.png" alt="Imagen carpeta" width=auto max-height=130px>
