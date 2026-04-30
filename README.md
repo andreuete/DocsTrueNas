@@ -20,7 +20,7 @@ Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento de
 
 |Total: | ~400€ |
 | ----- | ----- |
-
+Una alternativa a la bahía puede ser conectar los distintos discos directamente al pc con adaptadores SATA - USB. He optado por la opción de la bahía porque esta cuesta solo un poco más que 2 adaptadores y es más fiable tener los discos ahi dentro que sueltos por ahí.
 # 💾| Instalación
 Descargamos la .iso de TrueNAS desde su [página oficial](https://www.truenas.com/download/) y creamos una unidad arrancable con [Rufus](https://rufus.ie/es/) (si estás Windows) o [Startup Disk Creator](https://computernewage.com/2018/08/18/crear-usb-booteable-gnu-linux/#utilidad-usb-arrancable) (si estás en Linux).
 
@@ -47,3 +47,10 @@ Cuando se haya terminado de instalar, el programa volverá a mostrar el mismo me
 Al arrancar el servidor, veremos un menú con varias opciones y arriba de este la dirección a la que debemos conectarnos para acceder al panel. Si este diálogo no aparece, puedes cambiar la interfaz y configuración de red con las opciones 1 y 2 respectivamente.
 
 <img src="/imgs/panel/Panel0.png" alt="Imagen instalación" width=auto max-height=280px>
+
+Aquí iniciamos sesión con el usuario *truenas_admin* que configuramos antes.
+
+<img src="/imgs/panel/Panel0.png" alt="Imagen instalación" width=auto max-height=280px>
+
+
+
