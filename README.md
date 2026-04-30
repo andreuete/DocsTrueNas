@@ -6,7 +6,7 @@ Documentación e instrucciones del proyecto de instalación de un sistema TrueNA
 En esta práctica vamos a implementar un servidor NAS para usarlo como un "Drive" en casa, aunque a este servidor se le pueden dar una infinad de usos.
 Según la [web oficial](https://www.truenas.com/docs/scale/25.04/gettingstarted/scalehardwareguide/), los requisitos del sistema son los siguientes:
 
-![Tabla de requisitos del sistema]("/imgs/productos/"Captura desde 2026-04-30 11-58-59.png")
+![Tabla de requisitos del sistema](/imgs/productos/requisitos.png)
 
 Los 8gb de RAM aunque no sean estrictamente necesarios para el funcionamiento del propio sistema, si son altamente recomendados para que este tenga un rendimiento óptimo. Sobre todo a la hora de mover un gran volumen de archivos.
 
