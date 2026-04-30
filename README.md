@@ -85,8 +85,10 @@ Luego, selecciona el dataset, ve a **permissions** y **edit**. Aquí le damos al
 <img src="/imgs/panel/permisos4.png" alt="Imagen panel" width=auto max-height=280px>
 
 Finalmente, para acceder a la carpeta en red se hace introduciendo en la barra de búsqueda del explorador de archivos lo siguiente:
+
 🪟| **Desde Windows**
 `\\ip_del_servidor`
+
 🐧| **Desde Linux**
 `smb://ip_del_servidor`
 
